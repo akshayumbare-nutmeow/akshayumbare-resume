@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akshay Umbare | Marketing Analytics & Growth Strategy Leader</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="profile-section">
+                <h1>Akshay Umbare</h1>
+                <p class="subtitle">Data-Driven Growth & Marketing Strategist</p>
+                <p class="bio-summary">IIT Roorkee MBA & IIT BHU Engineer leveraging 7+ years of commercial analytics expertise to scale brand performance, campaign ROI, and AI enablement.</p>
+            </div>
+            
+            <div class="contact-info">
+                <div class="info-item"><i class="fa-solid fa-envelope"></i> akshayumbare@gmail.com</div>
+                <div class="info-item"><i class="fa-solid fa-phone"></i> +91 70429 46400</div>
+                <div class="info-item"><i class="fa-solid fa-location-dot"></i> Bangalore, India</div>
+                <div class="info-item"><i class="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/in/akshayumbare" target="_blank">linkedin.com/in/akshayumbare</a></div>
+            </div>
+
+            <div class="skills-section">
+                <h3>Core Strategic Skills</h3>
+                <div class="skill-badge">Growth Marketing</div>
+                <div class="skill-badge">Brand Strategy</div>
+                <div class="skill-badge">Campaign ROI & Attribution</div>
+                <div class="skill-badge">A/B Testing & Experimentation</div>
+                <div class="skill-badge">Predictive Targeting</div>
+                <div class="skill-badge">AI Agents & LLM Workflows</div>
+                <div class="skill-badge">SQL / Python / PySpark</div>
+                <div class="skill-badge">Tableau / Power BI</div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Navigation Tabs -->
+            <nav class="tabs-nav">
+                <button class="tab-btn active" onclick="switchTab(event, 'experience')">Experience</button>
+                <button class="tab-btn" onclick="switchTab(event, 'case-studies')">Strategic Case Studies</button>
+                <button class="tab-btn" onclick="switchTab(event, 'education')">Education</button>
+            </nav>
+
+            <!-- Experience Tab -->
+            <section id="experience" class="tab-content active">
+                <h2>Professional Experience</h2>
+                
+                <div class="experience-block">
+                    <div class="exp-header">
+                        <div>
+                            <h3>Data Analyst — Commercial & Brand Analytics</h3>
+                            <span class="company">AstraZeneca</span>
+                        </div>
+                        <span class="date">May 2025 – Present</span>
+                    </div>
+                    <ul class="bullet-list">
+                        <li><strong>Personal Promotion Pipeline:</strong> Architected and launched the <em>Personal Promotion Pipeline (Call Activity)</em>; engineered new commercial performance metrics in collaboration with cross-functional data engineering and brand stakeholder teams to optimize field-force targeting.</li>
+                        <li><strong>AI Agent Infrastructure:</strong> Designed and deployed specialized AI analytics agent skills focused on <em>Demand Funnel</em> and <em>Patient Claims</em> business models, empowering analytics teams to automate complex domain inquiries and accelerate workflows.</li>
+                        <li><strong>Brand Defensibility & Predictive Targeting:</strong> Formulated a hyper-targeted commercial call-plan strategy utilizing complex longitudinal claims and patient funnel data; successfully sustained brand market demand during a critical Loss of Exclusivity (LOE) phase.</li>
+                        <li><strong>Marketing Execution Governance:</strong> Engineered an automated performance monitoring framework to track field-force adherence to HCP marketing call plans, reducing tracking latency by 95% while delivering root-cause analysis on execution anomalies to brand leadership <em>(Awarded)</em>.</li>
+                        <li><strong>Commercial Asset Integration:</strong> Led the strategic overhaul of inherited legacy data assets—spanning HCPs, accounts, patient journeys, and payer types—to build an institutionalized reporting pipeline <em>(Awarded)</em>.</li>
+                        <li><strong>Executive Strategy Support:</strong> Synthesized weekly performance metrics on demand, new patient starts, and referral funnels, conducting deep-dive cause analyses for executive leadership.</li>
+                    </ul>
+                </div>
+
+                <div class="experience-block">
+                    <div class="exp-header">
+                        <div>
+                            <h3>Senior Data Management Analyst — Payment & GTM Analytics</h3>
+                            <span class="company">Wells Fargo</span>
+                        </div>
+                        <span class="date">Mar 2023 – May 2025</span>
+                    </div>
+                    <ul class="bullet-list">
+                        <li>Scaled Payments Analytics Team from 2 to 8 members, setting up SME networks, technical infrastructure, and compliance processes.</li>
+                        <li>Created a business case for a $100M+ Wires Foreign Exchange product, developing country-code identification logic with 99.3% accuracy adopted across AI-COE teams.</li>
+                        <li>Developed rule-based entity classification models (97% accuracy) to inform key executive strategic decisions.</li>
+                        <li>Led cross-functional aggregation of multiple payment channels, building an executive combined view dashboard in Tableau.</li>
+                    </ul>
+                </div>
+
+                <div class="experience-block">
+                    <div class="exp-header">
+                        <div>
+                            <h3>Data Analyst — Marketing Analytics</h3>
+                            <span class="company">Meesho</span>
+                        </div>
+                        <span class="date">Mar 2022 – Mar 2023</span>
+                    </div>
+                    <ul class="bullet-list">
+                        <li>Led 2 growth charters to increase supplier product listings and advertising adoption.</li>
+                        <li>Designed, statistically tested (z-test, α < 0.1), and scaled 7 marketing campaigns; increased monthly product listings by 25%, reactivated 8% churned suppliers, and boosted median monthly ad spend by 85%+.</li>
+                        <li>Built linear regression models (R² = 0.61) to forecast baseline product listings and automated campaign tracking via SparkSQL pipelines, reducing manual effort by 90%+.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Case Studies Tab -->
+            <section id="case-studies" class="tab-content">
+                <h2>Interactive Case Studies</h2>
+                <div class="filter-controls">
+                    <button class="filter-btn active" onclick="filterProjects('all')">All Pillars</button>
+                    <button class="filter-btn" onclick="filterProjects('growth')">Growth & Campaigns</button>
+                    <button class="filter-btn" onclick="filterProjects('ai')">AI & Automation</button>
+                    <button class="filter-btn" onclick="filterProjects('strategy')">Commercial Strategy</button>
+                </div>
+
+                <div class="projects-grid">
+                    <div class="project-card" data-category="growth">
+                        <h3>Meesho Supplier Growth Engine</h3>
+                        <p>Scaled 7 statistical campaigns resulting in +25% product listings, 8% churn reactivation, and +85% ad spend growth.</p>
+                        <span class="tag">Growth Marketing</span>
+                        <span class="tag">A/B Testing</span>
+                    </div>
+                    <div class="project-card" data-category="ai">
+                        <h3>AI Analytics Support Agent</h3>
+                        <p>Built LLM agent skills for Demand Funnel and Patient Claims models, reducing decision-making latency for analytics teams.</p>
+                        <span class="tag">AI Agents</span>
+                        <span class="tag">Databricks</span>
+                    </div>
+                    <div class="project-card" data-category="strategy">
+                        <h3>Personal Promotion Pipeline</h3>
+                        <p>Defined call activity metrics and built cross-team data pipelines to govern field-force marketing execution.</p>
+                        <span class="tag">Go-To-Market</span>
+                        <span class="tag">Pipeline Ops</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Education Tab -->
+            <section id="education" class="tab-content">
+                <h2>Education & Certifications</h2>
+                <div class="edu-item">
+                    <h3>MBA in Information Technology</h3>
+                    <p class="institution">Indian Institute of Technology (IIT), Roorkee | 2018 – 2020</p>
+                </div>
+                <div class="edu-item">
+                    <h3>M.Tech & B.Tech in Bio-Engineering / Biomedical Engineering</h3>
+                    <p class="institution">Indian Institute of Technology (BHU), Varanasi | 2011 – 2016</p>
+                </div>
+                
+                <h2 style="margin-top: 2rem;">Certifications</h2>
+                <ul class="bullet-list">
+                    <li>KPMG Six Sigma Green Belt</li>
+                    <li>Python Data Structures (Coursera / University of Michigan)</li>
+                </ul>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
